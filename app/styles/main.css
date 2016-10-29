@@ -4,6 +4,65 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: red;
+body,
+html {
+  background-color: #D8E8F2;
+  font-size: 62.5%;
+}
+.pc {
+  padding: 5rem 10rem 10rem;
+}
+.pc .master .m-box {
+  height: 42rem;
+  width: 20rem;
+  background-color: #000;
+}
+.pc .screen {
+  width: 100%;
+  height: 100%;
+  /*background-color: #fff;*/
+  border: 3rem solid #000000;
+  position: relative;
+}
+.pc .screen-content {
+  width: 60rem;
+  height: 20rem;
+}
+.pc .screen .openBtn {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 10rem;
+  border-radius: 50%;
+  position: relative;
+  left: 29rem;
+  top: 3rem;
+  background-color: #fff;
+}
+.pc .support {
+  margin: 0 auto;
+  /*width：100%；
+		height：100%;*/
+  width: 24rem;
+  height: 6rem;
+  background-color: #000000;
+}
+.pc .support .s-left {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 0 0 6rem 0 ;
+  background-color: #d8e8f2;
+  float: left;
+}
+.pc .support .s-mid {
+  width: 12rem;
+  height: 6rem;
+  float: left;
+}
+.pc .support .s-right {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 0 0 0 6rem;
+  background-color: #d8e8f2;
+  border-right: 1px solid #d8e8f2;
+  float: left;
 }
